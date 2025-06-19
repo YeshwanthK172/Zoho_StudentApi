@@ -1,0 +1,77 @@
+﻿@model StudentMvc.Models.Student
+
+<style>
+    .edit-student-container {
+        max-width: 600px;
+        margin: 60px auto;
+        padding: 30px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+    }
+
+        .edit-student-container h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        .edit-student-container label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .edit-student-container input[type="text"],
+        .edit-student-container input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .edit-student-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .edit-student-container button:hover {
+                background-color: #0056b3;
+            }
+</style>
+
+<div class="edit-student-container">
+    <h2>Edit Student</h2>
+
+    <form asp-action="EditStudent" method="post">
+        <input type="hidden" name="Reg_no" value="@Model.Reg_no" />
+
+        <label>Name</label>
+        <input type="text" name="Name" value="@Model.Name" required />
+
+        <label>Course</label>
+        <input type="text" name="Course" value="@Model.Course" required />
+
+        <label>10th Marks</label>
+        <input type="number" name="mark_10th" value="@Model.mark_10th" required />
+
+        <label>12th Marks</label>
+        <input type="number" name="mark_12th" value="@Model.mark_12th" required />
+
+        <label>Cutoff</label>
+        <input type="number" name="cutoff" value="@Model.cutoff" required />
+
+        <button type="submit">Update</button>
+    </form>
+</div>

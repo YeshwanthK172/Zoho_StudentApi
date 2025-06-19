@@ -1,0 +1,23 @@
+﻿@model StudentMvc.Models.Student
+
+<h2>My Profile</h2>
+<form method="post" asp-action="UpdateProfile">
+    <label>Name:</label>
+    <input asp-for="Name" /><br><br>
+
+    <label>Course:</label>
+    <input asp-for="Course" /><br><br>
+
+    <label>10th Marks:</label>
+    <input asp-for="mark_10th" type="number" /><br><br>
+
+    <label>12th Marks:</label>
+    <input asp-for="mark_12th" type="number" /><br><br>
+
+    <label>Cutoff:</label>
+    <input asp-for="cutoff" type="number" /><br><br>
+
+    <input type="hidden" asp-for="Reg_no" />
+
+    <button type="submit">Save Changes</button>
+</form>

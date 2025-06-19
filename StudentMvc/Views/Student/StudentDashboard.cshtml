@@ -1,0 +1,74 @@
+﻿@model int
+@{
+    var status = ViewBag.Status as string ?? "CheckedOut";
+    bool canCheckIn = status == "CheckedOut";
+    bool canCheckOut = status == "CheckedIn";
+}
+
+<style>
+    .student-dashboard {
+        max-width: 500px;
+        margin: 80px auto;
+        padding: 40px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        text-align: center;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+        .student-dashboard h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .student-dashboard button {
+            width: 60%;
+            padding: 12px;
+            margin: 12px 0;
+            font-weight: bold;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+            .student-dashboard button:disabled {
+                background-color: #ccc;
+                cursor: not-allowed;
+            }
+
+        .student-dashboard .checkin-btn {
+            background-color: #007bff;
+        }
+
+        .student-dashboard .checkout-btn {
+            background-color: #28a745;
+        }
+
+    .status-msg {
+        margin-top: 10px;
+        color: green;
+        font-weight: bold;
+    }
+</style>
+
+<div class="student-dashboard">
+    <h2>Welcome Student (Reg No: <b>@Model</b>)</h2>
+
+    @if (TempData["Status"] != null)
+    {
+        <div class="status-msg">@TempData["Status"]</div>
+    }
+
+    <form method="post" asp-action="CheckIn">
+        <input type="hidden" name="regNo" value="@Model" />
+        <button type="submit" class="checkin-btn" @(canCheckIn ? "" : "disabled")>Check In</button>
+    </form>
+
+    <form method="post" asp-action="CheckOut">
+        <input type="hidden" name="regNo" value="@Model" />
+        <button type="submit" class="checkout-btn" @(canCheckOut ? "" : "disabled")>Check Out</button>
+    </form>
+</div>

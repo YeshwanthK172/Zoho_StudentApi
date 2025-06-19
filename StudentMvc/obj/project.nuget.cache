@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "XBDnbOhmHrE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\StudentMvc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KK SYSTEMS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.4\\microsoft.windowsdesktop.app.ref.9.0.4.nupkg.sha512",
+    "C:\\Users\\KK SYSTEMS\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.4\\microsoft.netcore.app.ref.9.0.4.nupkg.sha512",
+    "C:\\Users\\KK SYSTEMS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.4\\microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512",
+    "C:\\Users\\KK SYSTEMS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.4\\microsoft.netcore.app.host.win-x64.9.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: The download of 'https://api.nuget.org/v3-vulnerabilities/2025.06.11.23.45.06/vulnerability.base.json' timed out because no data was received for 60000ms.",
+      "projectPath": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\StudentMvc.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\StudentMvc.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

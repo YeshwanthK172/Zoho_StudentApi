@@ -1,0 +1,75 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var role = HttpContextAccessor.HttpContext?.Session.GetString("Role");
+    var regNo = HttpContextAccessor.HttpContext?.Session.GetInt32("RegNo");
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - StudentApp</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/StudentMvc.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">StudentApp</a>
+
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-end">
+                    <ul class="navbar-nav">
+
+                        @if (role == "admin")
+                        {
+                            <li class="nav-item"><a class="nav-link" asp-controller="Student" asp-action="AddStudent">Add Student</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Student" asp-action="ViewStudent">View Students</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Student" asp-action="CheckedInStudents">Checked-In</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Student" asp-action="AddMarks">Add Marks</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Student" asp-action="AllResults">All Results</a></li>
+                        }
+                        else if (role == "student")
+                        {
+                            <li class="nav-item"><a class="nav-link" asp-controller="Student" asp-action="ViewResults">My Results</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Student" asp-action="ViewAttendance" asp-route-regNo="@regNo">My Attendance</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Student" asp-action="Profile">My Profile</a></li>
+                        }
+
+                        @if (!string.IsNullOrEmpty(role))
+                        {
+                            <li class="nav-item"><a class="nav-link text-danger" asp-controller="Login" asp-action="Logout">Logout</a></li>
+                        }
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted mt-5">
+        <div class="container">
+            &copy; 2025 - StudentApp
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

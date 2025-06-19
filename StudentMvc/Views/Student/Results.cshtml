@@ -1,0 +1,42 @@
+﻿@model List<StudentMvc.Models.Marks>
+
+<h2>Exam Results</h2>
+
+@if (!Model.Any())
+{
+    <p>No results available.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Exam Name</th>
+                <th>Tamil</th>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>Social</th>
+                <th>Total</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in Model)
+            {
+                <tr>
+                    <td>@m.ExamName</td>
+                    <td style="color:@(m.Tamil >= 40 ? "green" : "red")">@m.Tamil</td>
+                    <td style="color:@(m.English >= 40 ? "green" : "red")">@m.English</td>
+                    <td style="color:@(m.Maths >= 40 ? "green" : "red")">@m.Maths</td>
+                    <td style="color:@(m.Science >= 40 ? "green" : "red")">@m.Science</td>
+                    <td style="color:@(m.Social >= 40 ? "green" : "red")">@m.Social</td>
+                    <td><b>@m.TotalMarks / 500</b></td>
+                    <td style="color:@(m.Result == "Pass" ? "green" : "red")"><b>@m.Result</b></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a asp-action="StudentDashboard">⬅️ Back to Dashboard</a>

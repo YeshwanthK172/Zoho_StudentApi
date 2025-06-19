@@ -1,0 +1,109 @@
+﻿@model List<StudentMvc.Models.Student>
+
+<style>
+    .students-container {
+        max-width: 1000px;
+        margin: 60px auto;
+        font-family: Arial, sans-serif;
+    }
+
+        .students-container h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+    .add-student-btn {
+        display: block;
+        text-align: right;
+        margin-bottom: 15px;
+    }
+
+        .add-student-btn a {
+            text-decoration: none;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+            .add-student-btn a:hover {
+                background-color: #218838;
+            }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    thead {
+        background-color: #f4f4f4;
+    }
+
+    tr:hover {
+        background-color: #f9f9f9;
+    }
+
+    .action-links a {
+        margin: 0 6px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #007bff;
+    }
+
+        .action-links a:hover {
+            text-decoration: underline;
+        }
+
+        .action-links a.delete {
+            color: #dc3545;
+        }
+</style>
+
+<div class="students-container">
+    <h2>All Students</h2>
+
+    <div class="add-student-btn">
+        <a href="/Student/AddStudent">➕ Add New Student</a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Reg No</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>10th</th>
+                <th>12th</th>
+                <th>Cutoff</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.Reg_no</td>
+                    <td>@student.Name</td>
+                    <td>@student.Course</td>
+                    <td>@student.mark_10th</td>
+                    <td>@student.mark_12th</td>
+                    <td>@student.cutoff</td>
+                    <td class="action-links">
+                        <a href="/Student/EditStudent?regNo=@student.Reg_no">✏️ Edit</a>
+                        <a href="/Student/DeleteStudent?regNo=@student.Reg_no" class="delete" onclick="return confirm('Are you sure you want to delete this student?');">🗑️ Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

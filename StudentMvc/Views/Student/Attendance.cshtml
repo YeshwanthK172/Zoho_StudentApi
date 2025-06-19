@@ -1,0 +1,44 @@
+﻿@model List<StudentMvc.Models.Attendance>
+
+<h2 style="margin: 40px 0 20px; text-align: center; font-family: Arial; color: #333;">
+    Attendance History
+</h2>
+
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th style="padding: 12px;">Date</th>
+            <th style="padding: 12px;">Check In</th>
+            <th style="padding: 12px;">Check Out</th>
+            <th style="padding: 12px;">Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var record in Model)
+            {
+                <tr style="border-bottom: 1px solid #ddd; text-align: center;">
+                    <td style="padding: 12px;">@record.Date.ToString("dd-MM-yyyy")</td>
+                    <td style="padding: 12px;">
+                        @(record.CheckIn?.ToString("HH:mm:ss") ?? "Pending")
+                    </td>
+                    <td style="padding: 12px;">
+                        @(record.CheckOut?.ToString("HH:mm:ss") ?? "Pending")
+                    </td>
+                    <td style="padding: 12px;">
+                        @(record.CheckOut.HasValue? record.Hours.ToString() : "Pending")
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4" style="padding: 20px; text-align: center; color: #999;">
+                    No attendance records found.
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

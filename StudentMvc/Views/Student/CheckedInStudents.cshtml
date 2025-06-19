@@ -1,0 +1,38 @@
+﻿@model List<StudentMvc.Models.Student>
+
+<h2>Checked-in Students (Today)</h2>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+
+<table border="1" cellpadding="10" cellspacing="0" style="margin-top: 20px; width: 100%; text-align: center;">
+    <thead style="background-color: #f2f2f2;">
+        <tr>
+            <th>Reg No</th>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.Reg_no</td>
+                    <td>@student.Name</td>
+                    <td>@student.Course</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No students are currently checked in.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

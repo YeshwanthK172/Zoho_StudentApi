@@ -1,0 +1,25 @@
+﻿@model StudentMvc.Models.LoginRequest
+
+<h2>Login</h2>
+
+@if (TempData["Success"] != null)
+{
+    <p style="color:green">@TempData["Success"]</p>
+}
+
+<form method="post" asp-controller="Login" asp-action="Login">
+    <label>Username:</label>
+    <input asp-for="Username" required /><br />
+
+    <label>Password:</label>
+    <input asp-for="Password" type="password" required /><br />
+
+    <button type="submit">Login</button>
+</form>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+
+<p>Don't have an account? <a href="/Login/Register">Register here</a></p>

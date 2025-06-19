@@ -1,0 +1,33 @@
+﻿@model StudentMvc.Models.Marks
+<h2>Enter Student Marks</h2>
+<form asp-action="AddMarks" method="post">
+    <input asp-for="Reg_no" placeholder="Reg No" required /><br />
+    <select asp-for="ExamName">
+        <option value="">--Select Exam--</option>
+        <option>Term 1</option>
+        <option>Term 2</option>
+        <option>Term 3</option>
+    </select><br />
+
+    <input asp-for="Tamil" placeholder="Tamil" type="number" required /><br />
+    <input asp-for="English" placeholder="English" type="number" required /><br />
+    <input asp-for="Maths" placeholder="Maths" type="number" required /><br />
+    <input asp-for="Science" placeholder="Science" type="number" required /><br />
+    <input asp-for="Social" placeholder="Social" type="number" required /><br />
+
+    <button type="submit">Submit</button>
+</form>
+
+@if (TempData["Status"] != null)
+{
+    <p style="color:green">@TempData["Status"]</p>
+}
+@if (TempData["Error"] != null)
+{
+    <p style="color:red">@TempData["Error"]</p>
+}
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+

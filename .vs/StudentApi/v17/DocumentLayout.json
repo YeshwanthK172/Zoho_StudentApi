@@ -1,0 +1,485 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\addmarks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\addmarks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\allresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\allresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentapi\\controllers\\markscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\controllers\\markscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentapi\\models\\marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\models\\marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\models\\marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\models\\marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\viewstudents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\viewstudents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\editstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\editstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\checkedinstudents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\checkedinstudents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\attendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\attendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentapi\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentapi\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF9930F-60B3-41BC-8673-F0CF87432207}|StudentApi\\StudentApi.csproj|solutionrelative:studentapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|c:\\users\\kk systems\\onedrive\\desktop\\projects\\studentapi\\studentmvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DBA465-227E-459B-B50B-6CEFE9608F94}|StudentMvc\\StudentMvc.csproj|solutionrelative:studentmvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddMarks.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\AddMarks.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\AddMarks.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\AddMarks.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\AddMarks.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T08:20:01.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "StudentMvc\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "StudentMvc\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwDUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T04:58:24.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\AdminDashboard.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T05:31:58.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T06:27:06.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Program.cs",
+              "RelativeDocumentMoniker": "StudentMvc\\Program.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Program.cs",
+              "RelativeToolTip": "StudentMvc\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:18:07.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\StudentDashboard.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\StudentDashboard.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\StudentDashboard.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\StudentDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T05:32:41.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "StudentMvc\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "StudentMvc\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T10:51:47.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "StudentApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "StudentApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAnwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T10:52:47.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T06:37:22.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentApi\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentApi\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:17:59.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MarksController.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Controllers\\MarksController.cs",
+              "RelativeDocumentMoniker": "StudentApi\\Controllers\\MarksController.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Controllers\\MarksController.cs",
+              "RelativeToolTip": "StudentApi\\Controllers\\MarksController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADwv0cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:57:06.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\Results.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\Results.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\Results.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\Results.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T08:17:45.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AllResults.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\AllResults.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\AllResults.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\AllResults.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\AllResults.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:46:06.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentMvc\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentMvc\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:00:21.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Marks.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Models\\Marks.cs",
+              "RelativeDocumentMoniker": "StudentApi\\Models\\Marks.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Models\\Marks.cs",
+              "RelativeToolTip": "StudentApi\\Models\\Marks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:53:03.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Marks.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Models\\Marks.cs",
+              "RelativeDocumentMoniker": "StudentMvc\\Models\\Marks.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Models\\Marks.cs",
+              "RelativeToolTip": "StudentMvc\\Models\\Marks.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:53:34.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\EditStudent.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\EditStudent.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\EditStudent.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\EditStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T09:52:36.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\profile.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\profile.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\profile.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T04:19:52.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\AddStudent.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\AddStudent.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\AddStudent.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T09:13:56.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ViewStudents.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\ViewStudents.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\ViewStudents.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\ViewStudents.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\ViewStudents.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T09:44:15.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CheckedInStudents.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\CheckedInStudents.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\CheckedInStudents.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\CheckedInStudents.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\CheckedInStudents.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T04:38:37.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Attendance.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\Attendance.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Student\\Attendance.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Student\\Attendance.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Student\\Attendance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T05:34:03.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "StudentApi\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "StudentApi\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:10:10.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "StudentApi\\Models\\Attendance.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Models\\Attendance.cs",
+              "RelativeToolTip": "StudentApi\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T06:36:11.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "StudentApi\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentApi\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "StudentApi\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T10:51:23.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "StudentMvc\\Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "StudentMvc\\Views\\Login\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T10:50:49.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "StudentMvc\\Models\\Attendance.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Models\\Attendance.cs",
+              "RelativeToolTip": "StudentMvc\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T05:38:08.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentMvc\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Models\\Student.cs",
+              "RelativeToolTip": "StudentMvc\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:03:50.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StudentMvc\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\KK SYSTEMS\\OneDrive\\Desktop\\Projects\\StudentApi\\StudentMvc\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StudentMvc\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T09:57:47.369Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
